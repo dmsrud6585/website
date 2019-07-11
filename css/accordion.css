@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.accordion-title{
+  background-color: white;
+  color: #00bc53;
+  border-bottom: 1px solid gray;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.accordion-desc{
+  height: 100px;
+  color: #00bc53;
+  border-bottom: 1px solid gray;
+  background-color:   white;
+    padding-left: 10px;
+  display: none;
+}
+.accordion-title:nth-child(1) + .accordion-desc{
+  display: block;
+}
+/* .accordion .isOpen + .accordion-desc{
+  display: block;
+} */

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+div .box_inner {
+  float: left;
+  /* width: 33.333%; */
+  max-width: 223px;
+  height: 100%;
+  padding: 0 15px 0 35px;
+  box-sizing: border-box;
+  position: relative;
+  /* top: 15%; */
+  background-color: #deffd9;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.box-wrapper {
+  max-width: 700px;
+  /* margin: 20px auto; */
+padding-top: 30px;
+  /* padding-top: 30px;
+  box-sizing: border-box; */
+}
+
+.box_inner .title {
+  color: #3d3e42;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.box_inner .desc {
+  color: #98999c;
+  font-size: 16px;
+  line-height: 20px; //줄간격
+}
+
+.ico-heart {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-image: url('../img/red_heart.png');
+  overflow: hidden;
+}
+
+.ico {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.swiper-slide{
+  background-size: cover;
+}

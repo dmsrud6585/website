@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+#header {
+  height: 100px;
+  margin: 0 auto 20px auto;
+
+}
+
+.header_inner {
+  /* width: 70%;
+  min-width: 800px; */
+  margin: 0 auto;
+  width: 1000px;
+
+}
+
+#nav {
+  height: 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  z-index: 200;
+  /*depth값 설정*/
+  position: relative;
+  /*depth값을 적용하고, 서브메뉴의 스테이지를 설정하기 위해 넣은 속성 넣는 위치에 따라 서브메뉴의 시작 위치가 달라짐*/
+}
+
+.nav_inner {
+  /* width: 70%;
+  min-width: 800px; */
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#footer {
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  /* width: 70%;
+  min-width: 800px; */
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#content {
+  /* width: 70%;
+  min-width: 800px; */
+  margin: 0 auto 0 auto;
+  width: 1000px;
+}
+
+.section_main {
+  width: 700px;
+  float: left;
+}
+
+.aside {
+  width: 300px;
+  background-color: white;
+  /* border-right: 1px solid gray; */
+  float: left;
+  height: 800px;
+}
+
+.section {
+  height: 300px;
+}
+
+.article {
+  height: 300px;
+}
+.box-wrapper{
+  height: 200px;
+  width: 700px;
+}
